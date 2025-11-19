@@ -1,12 +1,12 @@
 [project]
-name = "labber"
+name = "Labber"
 version = "0.1.0"
 description = "A modified version of the labber library"
 readme = "README.md"
-requires-python = ">=3.8,<3.9"
+requires-python = ">3.8,<=3.9"
 dependencies = [
-  "matplotlib==3.6",
-  "numpy==1.19.5",
+  "matplotlib==3.9",
+  "numpy==1.23.5",
   "h5py",
   "pyqt5",
   "qtpy",
