@@ -26,13 +26,4 @@ package-dir = { "" = "lib" }
 packages = ["Labber"]
 
 [tool.setuptools.package-data]
-Labber = [
-    "_include36/*.pyc",
-    "_include36/**/*.pyc",
-    "_include37/*.pyc",
-    "_include37/**/*.pyc",
-    "_include38/*.pyc",
-    "_include38/**/*.pyc",
-    "_include39/*. pyc",
-    "_include39/**/*.pyc",
-]
+Labber = ["**/*"]
