@@ -8,7 +8,7 @@ dependencies = [
     "matplotlib==3.9",
     "numpy==1.23.5",
     "h5py",
-    "pyqt5; sys_platform == 'linux'",
+    "pyqt5",
     "qtpy",
     "msgpack",
     "sip",
