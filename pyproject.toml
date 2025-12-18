@@ -27,3 +27,6 @@ packages = ["Labber"]
 
 [tool.setuptools.package-data]
 Labber = ["**/*"]
+
+[tool.uv]
+environments = ["sys_platform == 'linux'", "sys_platform == 'win32'"]
